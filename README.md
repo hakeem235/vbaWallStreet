@@ -1,53 +1,41 @@
-# vbaWallStreet
+# Wall Street ( VBA )
 
 ## Overview of Project
 
-    
-
 ### Purpose
 
-    The purpose of the this challenges is to enhance the analytical skill usign Microsoft Execl 
+     The purpose of this project was to refactor the Microsoft Excel VBA code to collect information on specific stocks in 2017 and 2018 and determine if the stocks are worth investing in. This process was originally done in a similar fashion, but the purpose of this round was to make the original code more efficient.
+     
+____
+## Analysis:
 
-## Analysis and Challenges
+    As a result of our analysis, we can conclude that ENPH and RUN are good stocks to invest in, as they rose 81.9% and 84% respectively in 2018, while DQ fell 62% in 2018. Under depreciation from 2018.  
 
-### Analysis of Outcomes Based on Launch Date
+### Analysis Based on 2017 Retures
 
-![Theater_Outcoms_vs_Launch](./Resources/Theater_Outcoms_vs_Launch.png)
+![VBA_Challenge_2017](./Resources/VBA_Challenge_2017.png)
 
-_______
 
-### Analysis of Outcomes Based on Goals
 
-![Outcomes_vs_Goals](./Resources/Outcomes_vs_Goals.png)
-_____
+### Analysis Based on 2018 Retures
 
-## Results
+![VBA_Challenge_2018](./Resources/VBA_Challenge_2018.png)
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-   - In May, there is more than a 100% success rate.
-    - In October, there is a 50% field rate.
-    - April, where there is more than a 60% success rate.
-    - The worst month to start a campaign is December, where there is a less than 40% success rate.
+___
+## Summary:
 
-    _________
+### The Advantages of Refactoring Code
 
-- What can you conclude about the Outcomes based on Goals?
+    The advantages of refactoring the giving code are that you can clean it up and organize it better, and even find bugs from your reader's perspective that the author didn't notice. A new look can improve and optimize your code. In this case, we were able to save 0.8 seconds by refactoring the code.
 
-    - The Kickstarter with the highest goals has more risk to fail 
-     - Less than 20% of Kickstarter with a goal of more than 45000 are success
-    ___
+![Run_Time_2017](./Resources/runtime2017.png)
+![Run_Time_2018](./Resources/runtime2018.png)
 
-- What are some limitations of this dataset?
 
-    - The data sourced from multiple countries, and their currency, in this case, I don't get how the data normalized those currencies into one and compared the outcome.
-    - The data is not normally distributed we need more samples to generalize about the data set.
+___
 
-    ____
-- What are some other possible tables and/or graphs that we could create?
-    - Make outlier testing
-    - Creating a table and graph by excluding outliers
-    - Creating a graph that shows the campaign result quarterly, and yearly
-    - Conducting some statistical analysis, creating a table and graph that shows the difference in campaign outcomes across categories and time
-    - Creating a graph and table by making a comparison across different countries on the campaign being successful or failed.
-    - Creating a comparison table or graph which shows average donation across campaign outcomegn 
+### Pros and Cons Apply to Refactoring the original VBA script
+
+    Refactoring helps make your code cleaner and more organized. Benefits of cleaner code include improved design and software, debugging, and faster programming. It's also more concise and direct, so it's easier to read, so other people looking at your project will also benefit. However, there are downsides, so you can't always afford to refactor your code. These shortcomings range from oversized applications to lack of test cases for existing code. Any attempt to refactor your code can end up being risky.
+
